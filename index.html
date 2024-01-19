@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To-Do-App: Server edition</h1>
+    <div>
+        <form id="new-todo-form">
+            <label for="new-todo">Tasks:</label>
+            <input type="text" id="new-todo" />
+            <button id="btn-add" type="submit" class="button">Add</button>
+        </form>
+        <p>
+            <button id="btn-delete" class="button">Delete done To-Do's</button>
+        </p>
+    </div>
+    <h2>My To-Do-Tasks</h2>
+    <div>
+        <ul class="todo-unsorted-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
